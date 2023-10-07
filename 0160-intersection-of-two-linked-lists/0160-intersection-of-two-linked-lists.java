@@ -9,6 +9,7 @@
  *     }
  * }
  */
+ //In my code Time : o(m+n) and space o(m)
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
