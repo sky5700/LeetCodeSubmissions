@@ -19,13 +19,13 @@ class Solution {
 
         Stack<Integer> st = new Stack<>();
         ListNode temp = head;
-        
+        //adding in stack 
         while(temp != null)
         {
             st.push(temp.val);
             temp = temp.next;
         }
-
+         //checking from reverse order as Stack follow: LIFO
         while(head != null)
         {
             if(head.val != st.pop())
